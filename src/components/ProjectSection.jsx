@@ -17,7 +17,7 @@ const projects = [
     description: "A beautiful Web Application like ChatGpt.",
     image: "/projects/NepalGpt.png",
     tags: ["React", "Tailwind CSS", "Node.js", "MongoDB", "Stripe Payment"],
-    demoURL: "https://sachin-nep-gpt.vercel.app/",
+    demoURL: "https://sachin-nepalgpt1.vercel.app/",
     githubUrl: "https://github.com/NewaSachin/SachinGPT.git",
   },
 ];
