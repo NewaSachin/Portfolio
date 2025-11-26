@@ -129,7 +129,7 @@ export const ContactSection = () => {
                   <Instagram size={24} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.facebook.com/sachin.shrestha.12914"
                   className="text-muted-foreground hover:text-blue-800 transition-colors"
                 >
                   <Facebook size={24} />
