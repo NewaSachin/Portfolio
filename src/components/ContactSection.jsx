@@ -123,12 +123,14 @@ export const ContactSection = () => {
                   <Linkedin size={24} />
                 </a>
                 <a
+                  target="_blank"
                   href="https://www.instagram.com/sachin_deshraj_shrestha_/?__pwa=1"
                   className="text-muted-foreground hover:text-pink-500 transition-colors"
                 >
                   <Instagram size={24} />
                 </a>
                 <a
+                  target="_blank"
                   href="https://www.facebook.com/sachin.shrestha.12914"
                   className="text-muted-foreground hover:text-blue-800 transition-colors"
                 >
