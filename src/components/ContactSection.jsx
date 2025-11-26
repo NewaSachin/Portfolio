@@ -1,6 +1,7 @@
 import React from "react";
 import {
   Facebook,
+  Github,
   Instagram,
   Linkedin,
   Mail,
@@ -117,14 +118,29 @@ export const ContactSection = () => {
                   href="https://www.linkedin.com/in/sachin-shrestha-30a28929b/"
                   target="_blank"
                   rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-blue-600 transition-colors"
                 >
-                  <Linkedin />
+                  <Linkedin size={24} />
                 </a>
-                <a href="#">
-                  <Instagram />
+                <a
+                  href="https://www.instagram.com/sachin_deshraj_shrestha_/?__pwa=1"
+                  className="text-muted-foreground hover:text-pink-500 transition-colors"
+                >
+                  <Instagram size={24} />
                 </a>
-                <a href="#">
-                  <Facebook />
+                <a
+                  href="#"
+                  className="text-muted-foreground hover:text-blue-800 transition-colors"
+                >
+                  <Facebook size={24} />
+                </a>
+                <a
+                  href="https://github.com/NewaSachin"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-muted-foreground hover:text-black transition-colors"
+                >
+                  <Github size={24} />
                 </a>
               </div>
             </div>
