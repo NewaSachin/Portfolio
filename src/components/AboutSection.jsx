@@ -28,7 +28,7 @@ export const AboutSection = () => {
                 Get In Touch
               </a>
               <a
-                href="/E.SachinCV.pdf"
+                href="/ERSachin_Shrestha_CV.pdf"
                 download="E.SachinCV.pdf"
                 className="px-6 py-2 rounded-full border border-primary hover:bg-primary/30 transition-colors duration-300"
               >
