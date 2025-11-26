@@ -10,11 +10,9 @@ import {
   Send,
 } from "lucide-react";
 import { cn } from "../lib/utils";
-import { useToast } from "../components/ui/toast.jsx";
+import toast from "react-hot-toast"; // <- use this
 
 export const ContactSection = () => {
-  const { toast } = useToast();
-
   const handleSubmit = async (e) => {
     e.preventDefault();
 
@@ -31,22 +29,13 @@ export const ContactSection = () => {
       const result = await response.json();
 
       if (result.success) {
-        toast({
-          title: "Message Sent",
-          description: "Thank you for your message!",
-        });
+        toast.success("Message sent successfully");
         form.reset();
       } else {
-        toast({
-          title: "Error",
-          description: "Message could not be sent. Try again.",
-        });
+        toast.error("Failed");
       }
     } catch (err) {
-      toast({
-        title: "Error",
-        description: "Message could not be sent. Try again.",
-      });
+      toast.error("Not sent");
     }
   };
 
@@ -212,6 +201,7 @@ export const ContactSection = () => {
 
               <button
                 type="submit"
+                onClick={() => toast.success("Thank you for your message")}
                 className={cn(
                   "cosmic-button w-full flex items-center justify-center gap-2"
                 )}
