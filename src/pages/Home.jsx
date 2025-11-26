@@ -19,6 +19,7 @@ export const Home = () => {
 
       {/* Navbar */}
       <Navbar />
+      {/* Public key-05ddb0c8-c4ad-4640-a3fa-6e1b91072cd2 */}
 
       {/* Main Section */}
       <main>
